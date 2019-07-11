@@ -165,6 +165,28 @@ article {
     padding-top: .5em;
 }
 
+.grid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto;
+}
+
+.entry {
+    position: relative;
+}
+
+.entrylabel {
+    position: absolute;
+    bottom: 30%;
+    background-color: #4aaaa5;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    padding: .5em;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 /* container to prevent overflow, from https://www.w3schools.com/css/css_float.asp */
 .clearfix::after {
     content: "";
