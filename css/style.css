@@ -43,11 +43,20 @@ h2 {
     margin-block-end: 0.83em;
 }
 
-input {
+input, textarea {
     display: block;
     width: 100%;
     color: #777777;
     box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 10px 14px;
+    margin: 2px 0 10px;
+}
+
+textarea {
+    resize: vertical;
+    
 }
 
 .nav {
