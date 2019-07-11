@@ -65,6 +65,13 @@ input:focus, textarea:focus {
     box-shadow: 0 0 3px #4aaaa5;
 }
 
+input#submit {
+    width: initial;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 16px;
+}
+
 .nav {
     height: 100%;
     flex-grow: 0;
