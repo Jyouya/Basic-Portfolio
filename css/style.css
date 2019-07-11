@@ -30,10 +30,11 @@ h2 {
     color: cadetblue;
 }
 
-.nav, .spacer {
+.nav {
     color: grey;
     height: 100%;
     flex-grow: 0;
+    float: right;
 }
 
 .negativespace {
@@ -41,18 +42,37 @@ h2 {
 }
 
 .nav {
-    background-color: white; 
+    /*background-color: white; */
     text-decoration: none;
-    padding: .7em 1.7em;
+    /*padding: .7em 1.7em;*/
+    height: 100%;
+    position: relative;
 }
 
-.nav:hover {
+.box {
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.box:hover {
     background-color: cadetblue;
     color: white;
 }
 
+.vdivider {
+    height: 1.5em;
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: calc(50% - .75em);
+    background: grey;
+
+}
+
 nav {
     display: flex;
+    height: 100%;
 }
 
 .spacer {
