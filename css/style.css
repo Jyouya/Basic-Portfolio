@@ -190,6 +190,8 @@ article {
     float: left;
     padding-right: 1.5em;
     padding-top: .5em;
+    width: 25%;
+    height: 25%;
 }
 
 .grid {
